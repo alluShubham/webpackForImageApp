@@ -1,0 +1,35 @@
+#searchBar{
+    width: 80%;
+    margin: 10px auto;
+}
+
+#query{
+    width: 100%;
+    height: 35px;
+    border: 1px solid teal;
+    border-radius: 20px;
+    padding: 5px;
+    font-size: medium;
+}
+#categories{
+    display: flex;
+    justify-content: space-evenly;
+}
+#categories h3{
+    border: 1px solid orangered;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+#container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: auto;
+    gap: 20px;
+    width: 80%;
+    margin: auto;
+}
+img {
+    width: 250px;
+    height: 300px;
+}
